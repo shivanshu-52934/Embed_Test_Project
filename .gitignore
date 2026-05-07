@@ -1,0 +1,13 @@
+.env
+
+__pycache__/
+*.pyc
+
+coverage_reports/
+
+c_modules/*.gcda
+c_modules/*.gcno
+c_modules/*.gcov
+c_modules/*.o
+c_modules/*.so
+c_modules/*.dll
