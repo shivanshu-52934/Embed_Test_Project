@@ -58,8 +58,4 @@ jobs:
           chmod +x scripts/coverage_report.sh
           ./scripts/coverage_report.sh
 
-      - name: Upload coverage artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-report
-          path: coverage_reports/html
+      
