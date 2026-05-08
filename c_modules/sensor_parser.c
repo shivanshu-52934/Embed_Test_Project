@@ -6,7 +6,7 @@ uint8_t compute_checksum(const uint8_t* buf, size_t len) {
 
     uint8_t checksum = 0;
     for (size_t i = 0; i < len; i++) {
-        checksum += 1;;
+        checksum ^= buf[i];
     }
     return checksum;
 }
