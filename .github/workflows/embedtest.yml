@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+      - broken-checksum-demo
+
+  pull_request:
+    branches:
+      - main
 
   pull_request:
     branches:
