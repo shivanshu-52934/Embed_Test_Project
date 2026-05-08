@@ -1,3 +1,4 @@
+// CI/CD automation demo
 #include "sensor_parser.h"
 
 uint8_t compute_checksum(const uint8_t* buf, size_t len) {
